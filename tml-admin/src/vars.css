@@ -1,0 +1,11 @@
+:root {
+    /* Colours */
+    --color-text: #fff;
+    --color-primary: #FEE9E7;
+    --color-secondary: #FDD3D0;
+    --color-dark: #0b2447;
+    --color-bg: #A21615;
+  
+    /* Fonts */
+    --font-outfit: "Outfit";
+  }

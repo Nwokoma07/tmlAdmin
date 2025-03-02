@@ -1,0 +1,113 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: #FEE9E7;
+  border-radius: 15px;
+  padding: 76px;
+  margin-top: 70px;
+  margin-bottom: 110px;
+  z-index: 1;
+  margin-left: 22%;
+  margin-right: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  align-content: center;
+  font-size:larger;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+input{
+  border: solid 3px  #fff !important;
+  height: 34px;
+}
+.formContent {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 80%;
+  height: 80%;
+  border: none;
+
+}
+
+.buttonContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  background-color: var(--color-bg);
+  border: none;
+  border-radius: 3px;
+  color: var(--color-secondary);
+  padding: 6px 0 6px 0;
+  border-radius: 8px;
+}
+
+.buttonContent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+  border: none;
+  border-radius: 3px;
+  padding: 6px 0 6px 0;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 10px;
+  font-weight: 100;
+  
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
